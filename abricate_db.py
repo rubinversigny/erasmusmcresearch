@@ -1,7 +1,7 @@
 import os, glob
 
 # Open a file
-path = "*.txt"
+path = "$path_to_abricate_outfile$"
 dirs = os.listdir( path )
 
 for file_name in dirs:
