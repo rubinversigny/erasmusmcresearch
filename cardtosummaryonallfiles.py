@@ -1,7 +1,7 @@
 import os, glob
 
 # Open a file
-path = "D:/500genomes/rgiresultsklebsiella/"
+path = "$path_to_directory_with_rgi_outfiles$"
 dirs = os.listdir( path )
 
 for file_name in dirs:
